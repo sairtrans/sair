@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تطبيق سير</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #44CFFA; /* اللون الأزرق من ملف الألوان */
+            color: #000000; /* اللون الأسود */
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        .logo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto 20px auto;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #003366; /* اللون الأزرق الداكن */
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #ffffff; /* النص الأبيض */
+            margin-bottom: 30px;
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .button {
+            background-color: #00AFFF; /* الأزرق الفاتح للأزرار */
+            color: #ffffff; /* النص الأبيض */
+            border: none;
+            border-radius: 5px;
+            padding: 15px 30px;
+            margin: 10px 0;
+            font-size: 18px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background-color: #44CFFA; /* تغيير اللون عند مرور الفأرة فوق الزر */
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <!-- ضع هنا صورة اللوغو إذا كانت لديك -->
+        <img src="logo.png" alt="لوجو سير" style="width: 100%; height: 100%; border-radius: 50%;">
+    </div>
+    <h1>Sair</h1>
+    <p>أول تطبيق مواصلات في الشمال السوري</p>
+    <div class="buttons">
+        <!-- رابط لتحميل ملف APK الموجود في نفس المجلد -->
+        <a href="app.apk" class="button" download>تحميل التطبيق</a>
+        <!-- رابط ينقلك إلى صفحة أخرى أو موقع آخر -->
+        <a href="https://www.youtube.com/shorts/4RybE4_R0o0" class="button">إنشاء حساب سائق</a>
+    </div>
+</body>
+</html>
